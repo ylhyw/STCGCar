@@ -109,7 +109,7 @@ STCGCar/
 
 STCGCar has been tested on multiple public spatial transcriptomics datasets, achieving state-of-the-art performance. Below is an example visualization of spatial clustering:
 
-![Results](result/clusting.png)
+![STCGCar Framework](result/clusting.png)
 
 ---
 
