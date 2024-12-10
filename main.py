@@ -147,10 +147,13 @@ if __name__ == '__main__':
                     new_type = refine_label(adata,30,key="nb_hid")
                     pre_labels = new_type
                 pre_labels = list(map(int, pre_labels))
+                y = pre_labels
 
                 if ari > best_ari:
                     best_ari = ari
                     best_nmi = nmi
+                    t_ari = np.round(metrics.adjusted_rand_score(y, adata.obs['ground_truth']), 5)
+                    t_nmi = np.round(metrics.normalized_mutual_info_score(y, adata.obs['ground_truth']), 5)
                     best_emb = hidden_emb
                     adata.obs['domain_best'] = list(map(str, pre_labels))
                     cells_reps = pd.DataFrame(best_emb.data.cpu().numpy())
@@ -158,13 +161,13 @@ if __name__ == '__main__':
                     cells_reps.index = cells
                     adata.obsm['domain_best'] = cells_reps.loc[adata.obs_names,].values
 
-            tqdm.write('best_nmi: {}, best_ari: {} , lr:{} ,loss:{},range:{}'.format(best_nmi, best_ari,optimizer.param_groups[0]['lr'],total_loss, i))
+            tqdm.write('best_nmi: {}, best_ari: {} , lr:{} ,loss:{},range:{}'.format(t_nmi, t_ari,optimizer.param_groups[0]['lr'],total_loss, i))
 
-        ari_list.append(best_ari)
-        nmi_list.append(best_nmi)
+        ari_list.append(t_ari)
+        nmi_list.append(t_nmi)
 
-        if best_ari > super_best_ari:
-            super_best_ari = best_ari
+        if t_ari > super_best_ari:
+            super_best_ari = t_ari
             best_adata = adata
 
     ARI_avg = np.array(ari_list)
