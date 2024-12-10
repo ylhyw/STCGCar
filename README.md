@@ -1,7 +1,7 @@
 
 # STCGCar: Spatial Transcriptomics Clustering with Graph Contrastive Learning and Augmentation Strategy
 
-STCGCar is a state-of-the-art framework designed for clustering spatial transcriptomics (ST) data. By leveraging graph contrastive learning, reversible neural networks for data augmentation, and redundancy reduction strategies, STCGCar effectively overcomes challenges in high-dimensional data clustering and achieves superior performance.
+STCGCar is a state-of-the-art framework designed for clustering spatial transcriptomics (ST) data. By leveraging graph contrastive learning, reversible networks for data augmentation, and redundancy reduction strategies, STCGCar effectively overcomes challenges in high-dimensional data clustering and achieves superior performance.
 
 ---
 
@@ -32,8 +32,7 @@ matplotlib >= 3.5.1
 ```
 
 **Hardware**:
-- **Recommended GPU**: NVIDIA GTX 1080Ti or above.
-- **Minimum RAM**: 16GB.
+- **Recommended GPU**: NVIDIA GTX 2080Ti or above.
 
 ---
 
@@ -88,8 +87,7 @@ pip install -r requirements.txt
 
 ### **4. Evaluate and Visualize Results**
 - **Cluster Assignments**: Predicted spatial domains for each spot.
-- **Visualization**: Heatmaps and scatter plots of clustering results.
-- **Performance Metrics**: Silhouette score, ARI, and other clustering metrics.
+- **Performance Metrics**: ARI,NMI, and other clustering metrics.
 
 ---
 
@@ -111,7 +109,7 @@ STCGCar/
 
 STCGCar has been tested on multiple public spatial transcriptomics datasets, achieving state-of-the-art performance. Below is an example visualization of spatial clustering:
 
-![Results](image/151672.png)
+![Results](image/STCGCar.png)
 
 ---
 
