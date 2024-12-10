@@ -70,7 +70,7 @@ Below is a detailed description of the key parameters used in the STCGCar framew
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/ylhyw/STCGCar.git
+git clone https://github.com/plhhnu/STCGCar.git
 cd STCGCar
 ```
 
@@ -109,7 +109,7 @@ STCGCar/
 
 STCGCar has been tested on multiple public spatial transcriptomics datasets, achieving state-of-the-art performance. Below is an example visualization of spatial clustering:
 
-![Results](image/STCGCar.png)
+![Results](result/clusting.png)
 
 ---
 
