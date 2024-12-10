@@ -113,15 +113,15 @@ STCGCar clustering results on eight datasets:
 <table>
   <tr>
     <td><img src="result/clustering.jpg" alt="Dataset 1" width="200"/></td>
-    <td><img src="result/clustering_dataset2.png" alt="Dataset 2" width="200"/></td>
-    <td><img src="result/clustering_dataset3.png" alt="Dataset 3" width="200"/></td>
-    <td><img src="result/clustering_dataset4.png" alt="Dataset 4" width="200"/></td>
+    <td><img src="result/STCGCar_DCIS.jpg" alt="Dataset 2" width="200"/></td>
+    <td><img src="result/STCGCar_E1S1.jpg" alt="Dataset 3" width="200"/></td>
+    <td><img src="result/STCGCar_E2S2.jpg" alt="Dataset 4" width="200"/></td>
   </tr>
   <tr>
-    <td><img src="result/clustering_dataset5.png" alt="Dataset 5" width="200"/></td>
-    <td><img src="result/clustering_dataset6.png" alt="Dataset 6" width="200"/></td>
-    <td><img src="result/clustering_dataset7.png" alt="Dataset 7" width="200"/></td>
-    <td><img src="result/clustering_dataset8.png" alt="Dataset 8" width="200"/></td>
+    <td><img src="result/STCGCar_mouse_brain.jpg" alt="Dataset 5" width="200"/></td>
+    <td><img src="result/STCGCar_setionAgain_ARI=0.548.jpg" alt="Dataset 6" width="200"/></td>
+    <td><img src="result/V1_ARI.jpg" alt="Dataset 7" width="200"/></td>
+    <td><img src="result/STCGCar_starmap_ARI1=0.709.jpg" alt="Dataset 8" width="200"/></td>
   </tr>
 </table>
 
