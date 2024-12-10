@@ -120,7 +120,7 @@ STCGCar clustering results on eight datasets:
   <tr>
     <td><img src="result/STCGCar_mouse_brain.jpg" alt="Dataset 5" width="200"/></td>
     <td><img src="result/STCGCar_setionAgain_ARI=0.548.jpg" alt="Dataset 6" width="200"/></td>
-    <td><img src="result/V1_ARI.jpg" alt="Dataset 7" width="200"/></td>
+    <td><img src="result/V1_ARI=0.705.jpg" alt="Dataset 7" width="200"/></td>
     <td><img src="result/STCGCar_starmap_ARI1=0.709.jpg" alt="Dataset 8" width="200"/></td>
   </tr>
 </table>
