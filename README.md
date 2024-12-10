@@ -126,7 +126,6 @@ STCGCar clustering results on eight datasets:
 </table>
 
 
-![STCGCar Framework](result/clustering.jpg)
 
 ---
 
