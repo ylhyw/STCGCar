@@ -85,24 +85,8 @@ pip install -r requirements.txt
 - Format spatial transcriptomics data as an AnnData object.
 - Ensure the dataset includes spatial coordinates and gene expression matrices.
 
-### **4. Configure Parameters**
-Edit the `config.py` file or pass parameters via the command line. Example:
-```yaml
-lr: 1e-3
-epochs: 300
-gnnlayers: 3
-alpha2: 0.5
-rad_cutoff: 150
-```
 
-### **5. Train the Model**
-Run the training script:
-```bash
-python main.py --config config.yaml
-```
-- `--config`: Path to the configuration file (default: `config.yaml`).
-
-### **6. Evaluate and Visualize Results**
+### **4. Evaluate and Visualize Results**
 - **Cluster Assignments**: Predicted spatial domains for each spot.
 - **Visualization**: Heatmaps and scatter plots of clustering results.
 - **Performance Metrics**: Silhouette score, ARI, and other clustering metrics.
@@ -114,7 +98,6 @@ python main.py --config config.yaml
 ```plaintext
 STCGCar/
 ├── main.py                # Main script for training and evaluation
-├── config.py              # Configuration file for parameter tuning
 ├── models/                # Model architectures
 ├── data/                  # Example datasets
 ├── utils/                 # Utility functions
@@ -128,7 +111,7 @@ STCGCar/
 
 STCGCar has been tested on multiple public spatial transcriptomics datasets, achieving state-of-the-art performance. Below is an example visualization of spatial clustering:
 
-![Results](image/results_example.png)
+![Results](image/151672.png)
 
 ---
 
@@ -137,21 +120,7 @@ STCGCar has been tested on multiple public spatial transcriptomics datasets, ach
 If you use STCGCar in your research, please cite:
 
 ```bibtex
-@article{YourArticle,
-  title={STCGCar: Spatial Transcriptomics Clustering with Graph Contrastive Learning and Augmentation Strategy},
-  author={Your Name et al.},
-  journal={Your Journal},
-  year={2024},
-  doi={10.XXXX/XXXXX}
-}
+
 ```
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-通过这种扩展后的 README 文件，你可以更详细地向用户展示方法的背景、参数设置以及使用步骤，使其更易用、更专业。
