@@ -91,9 +91,9 @@ pip install -r requirements.txt
 - Run BrainFFPE-main.py to perform clustering experiments on the dataset Adult Mouse Brain (FFPE).
 - For other labeled as well as unlabeled datasets the experiments can be performed according to v1-main and BeainFFPE-main, respectively.
 - **Details**:
-- python DLPFC-main.py           # dataset DLPFC
-- python v1-main.py              # dataset Human Breast Cancer (Block A Section 1)
-- python BrainFFPE-main.py       # dataset Adult Mouse Brain (FFPE)
+- python DLPFC-main.py           -------dataset DLPFC
+- python v1-main.py              -------dataset Human Breast Cancer (Block A Section 1)
+- python BrainFFPE-main.py       -------dataset Adult Mouse Brain (FFPE)
 
 
 
