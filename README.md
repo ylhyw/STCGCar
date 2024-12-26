@@ -50,9 +50,9 @@ Below is a detailed description of the key parameters used in the STCGCar framew
 - **Recommended Value**: Between 6 and 15 neighbors.
 - **Details**: For 10x datasets, each cell typically contains 6 neighbors. A rad_cutoff of 150 or 300 is often suitable for 10x datasets to ensure valid neighbor relationships. For other datasets, adjust rad_cutoff dynamically based on data density and structure.
 
-### **3. alpha2**
-- **Description**: Balances the redundancy loss in the model.
-- **Recommended Value**: 0.5 for most new datasets.
+### **3. alpha1 and alpha2**
+- **Description**: alpha 1 is coefficient used to balance semantic loss and alpha2 is coefficient used to balance redundancy loss. 
+- **Recommended Value**: We set alpha 1 and alpha 2 to 0.5 and 0.8 in all datasets, respectively. 
 - **Details**: Ensures stability and consistency during training.
 
 ### **4. lr (Learning Rate)**
