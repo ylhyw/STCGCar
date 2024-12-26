@@ -85,7 +85,13 @@ pip install -r requirements.txt
 - Ensure the dataset includes spatial coordinates and gene expression matrices.
 
 
-### **4. Evaluate and Visualize Results**
+### **4. star**
+- Run DLPFC-main to perform clustering experiments on the dataset DLPFC.
+- Run v1-main to perform clustering experiments on the dataset Human Breast Cancer (Block A Section 1).
+- Run BrainFFPE-main to perform clustering experiments on the dataset Adult Mouse Brain (FFPE).
+- For other labeled as well as unlabeled datasets the experiments can be performed according to v1-main and BeainFFPE-main, respectively.
+
+### **5. Evaluate and Visualize Results**
 - **Cluster Assignments**: Predicted spatial domains for each spot.
 - **Performance Metrics**: ARI,NMI, and other clustering metrics.
 
