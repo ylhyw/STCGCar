@@ -85,11 +85,17 @@ pip install -r requirements.txt
 - Ensure the dataset includes spatial coordinates and gene expression matrices.
 
 
-### **4. star**
-- Run DLPFC-main to perform clustering experiments on the dataset DLPFC.
-- Run v1-main to perform clustering experiments on the dataset Human Breast Cancer (Block A Section 1).
-- Run BrainFFPE-main to perform clustering experiments on the dataset Adult Mouse Brain (FFPE).
+### **4. start**
+- Run DLPFC-main.py to perform clustering experiments on the dataset DLPFC.
+- Run v1-main.py to perform clustering experiments on the dataset Human Breast Cancer (Block A Section 1).
+- Run BrainFFPE-main.py to perform clustering experiments on the dataset Adult Mouse Brain (FFPE).
 - For other labeled as well as unlabeled datasets the experiments can be performed according to v1-main and BeainFFPE-main, respectively.
+
+'''
+python  DLPFC-main.py      #dataset DLPFC
+        v1-main.py          #dataset Human Breast Cancer (Block A Section 1)
+        BrainFFPE-main.py     #dataset Adult Mouse Brain (FFPE)
+'''
 
 ### **5. Evaluate and Visualize Results**
 - **Cluster Assignments**: Predicted spatial domains for each spot.
@@ -101,7 +107,9 @@ pip install -r requirements.txt
 
 ```plaintext
 STCGCar/
-├── main.py                # Main script for training and evaluation
+├── BrainFFPE-main.py      # Main script for training and evaluation on Adult Mouse Brain (FFPE).
+├── DLPFC-main.py          # Main script for training and evaluation on DLPFFC.
+├── v1-main.py             # Main script for training and evaluation on Human Breast Cancer (Block A Section 1).
 ├── models/                # Model architectures
 ├── data/                  # Example datasets
 ├── utils/                 # Utility functions
