@@ -65,6 +65,7 @@ Below is a detailed description of the key parameters used in the STCGCar framew
   - Final range: Adjust dynamically between `1e-3` and `5e-6` based on the loss function.
 
 ---
+## Data availability
 
 ## How to Use
 
