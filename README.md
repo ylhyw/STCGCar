@@ -66,6 +66,7 @@ Below is a detailed description of the key parameters used in the STCGCar framew
 
 ---
 ## Data availability
+All datasets in this article are accessible from here: (1) 10x Visium Human Dorsolateral Prefrontal Cortex dataset: http://spatial.libd.org/spatialLIBD/; (2) 10x Visium Human Breast Cancer dataset:https://www.10xgenomics.com/datasets/human-breast-cancer-block-a-section-1-1-standard-1-1-0; (3) 10x Visium Mouse Brain Serial Section 1 (Sagittal-Anterior) dataset: https://www.10xgenomics.com/datasets/mouse-brain-serial-section-1-sagittal-anterior-1-standard-1-0-0; (4) The STARmap dataset: https://stagate.readthedocs.io/en/latest/T9_STARmap.html; (5) The Adult Mouse Brain (FFPE) dataset:https://www.10xgenomics.com/datasets/adult-mouse-brain-ffpe-1-standard-1-3-0; (6) Human Breast Cancer (DCIS) datasets: https://www.10xgenomics.com/datasets/human-breast-cancer-ductal-carcinoma-in-situ-invasive-carcinoma-ffpe-1-standard-1-3-0; (7) Stereo-seq Mouse Embryo dataset: https://db.cngb.org/stomics/mosta/.
 
 ## How to Use
 
